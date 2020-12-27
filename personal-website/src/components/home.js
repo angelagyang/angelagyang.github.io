@@ -3,20 +3,16 @@ import { Button } from 'react-bootstrap'
 
 export default class Home extends Component {
     render() {
-      var styles = {
-        //background: no-repeat center center,
-        backgroundImage: 'url(images/angela_home.jpg)',
-      };
       return (
-        <div class="jumbotron" style = {{styles}}>
-          <div class="container">
+        <div className="jumbotron">
+          <div className="homeText">
             <h1>Hi, I'm Angela!</h1>
             <p>
-            Welcome to my personal website.
-          </p>
-          <p>
-            <Button variant="primary">Learn more</Button>
-          </p>
+              Welcome to my personal website.
+            </p>
+            <p>
+              <Button className="downloadCvButton" variant="primary">Download CV</Button>
+            </p>
           </div>
         </div>
         )

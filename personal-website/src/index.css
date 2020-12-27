@@ -16,3 +16,26 @@ code {
   width:30%;
   margin-left: 35%;
 }
+
+.jumbotron {
+  background-image: url("images/angela_home.jpg"); 
+  height: 800px;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+
+}
+
+.homeText {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  text-shadow: 3px 3px 8px #ffffff, -3px -3px 8px #ffffff;;
+}
+
+.downloadCvButton {
+  background-color: #4576c4 !important; /* Green */
+}
