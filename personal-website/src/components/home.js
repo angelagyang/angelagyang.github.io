@@ -7,9 +7,11 @@ export default class Home extends Component {
         <div className="homePage">
           <div className="jumbotronImg">
             <div className="homeText">
-              <h1>Hi, I'm Angela!</h1>
               <p>
-                Welcome to my personal website.
+                Hi, I'm Angela!             
+              </p>
+              <p id="secondText">
+                Software Developer
               </p>
               <p>
                 <Button href="AngelaYangCV.pdf" target="_blank" className="downloadCvButton" variant="primary" size="lg">Download CV</Button>
