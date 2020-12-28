@@ -47,21 +47,31 @@ p {
   text-align: center;
 }
 
+
+/** COMMON STYLING **/ 
+.sectionHeader {
+  color: #302425;
+  font-family: 'Ubuntu' sans-serif;
+  font-size: 80px;
+  font-size: 5vw;
+  justify-content: center;
+}
+
 /** HOME PAGE **/ 
 
 .jumbotronContainer {
   display: flex; 
-  overflow: visible; 
   width: 100% !important; 
   height: 100% !important;
+  position: relative; 
 }
 
 .jumbotronImage {
   width: 100%; 
   height: auto;
-  position:absolute; 
   top: 70; 
   left: 0; 
+  position: relative;
 }
 
 .jumbotronText {
@@ -79,7 +89,7 @@ p {
   height: 100%; 
   max-height:1000px;
   z-index: 5;
-  position: absolute; 
+  position: absolute;
   top: 70; 
   right: 0; 
   margin-left: auto; 
@@ -115,7 +125,13 @@ p {
 
 /** ABOUT **/ 
 .aboutContainer {
-  position:absolute;
+  display: flex; 
+  width: 100% !important; 
+  height: 100% !important;
+  position: relative;
+  padding-top: 5%; 
+
+  background-color: #FAE2E7;
 }
 
 .aboutBody {
@@ -125,12 +141,32 @@ p {
 
 /** EXPERIENCE **/
 
+.experienceContainer {
+  display: flex; 
+  width: 100% !important; 
+  height: 100% !important;
+  position: relative; 
+  background-color: #FAE2E7;
+  padding-top: 5%; 
+
+}
+
 .experienceBody {
   height: 900px;
 
 }
 
 /** CONTACT **/ 
+
+.contactContainer {
+  display: flex; 
+  width: 100% !important; 
+  height: 100% !important;
+  position: relative; 
+  background-color: #FAE2E7;
+  padding-top: 5%; 
+
+}
 
 .contactBody {
   height: 900px;
