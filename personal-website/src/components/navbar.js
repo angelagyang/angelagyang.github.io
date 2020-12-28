@@ -9,7 +9,7 @@ export default class NavBar extends Component {
           <Navbar.Brand href="#home">
             <img
               src="images/mylogo.png"
-              width="140"
+              width="180"
               height="50"
               className="d-inline-block align-top"
               alt="Angela Yang"

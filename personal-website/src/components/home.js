@@ -12,7 +12,7 @@ export default class Home extends Component {
                 Welcome to my personal website.
               </p>
               <p>
-                <Button className="downloadCvButton" variant="primary">Download CV</Button>
+                <Button className="downloadCvButton" variant="primary" size="lg">Download CV</Button>
               </p>
             </div>
           </div>
