@@ -33,7 +33,6 @@ p {
 
 /** NAVBAR **/ 
 .sticky-bar {
-  z-index:0;
   position: sticky;
   top: 0;
 }
@@ -55,7 +54,6 @@ p {
   overflow: visible; 
   width: 100% !important; 
   height: 100% !important;
-  z-index:0;
 }
 
 .jumbotronImage {
@@ -64,7 +62,6 @@ p {
   position:absolute; 
   top: 70; 
   left: 0; 
-  z-index: 0
 }
 
 .jumbotronText {
@@ -119,7 +116,6 @@ p {
 /** ABOUT **/ 
 .aboutContainer {
   position:absolute;
-  z-index: 0;
 }
 
 .aboutBody {

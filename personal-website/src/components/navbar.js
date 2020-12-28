@@ -19,7 +19,7 @@ export default class NavBar extends Component {
             <Nav className="mr-auto">
               <Nav.Link href="#about">About</Nav.Link>
               <Nav.Link href="#experience">Experience</Nav.Link>
-              <Nav.Link href="#blog">Blog</Nav.Link>
+              <Nav.Link href="https://angelagyang.wordpress.com" target="_blank">Blog</Nav.Link>
               <Nav.Link href="#contact">Contact</Nav.Link>
             </Nav>
           </Navbar.Collapse>
