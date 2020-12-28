@@ -4,7 +4,7 @@ import { Button } from 'react-bootstrap'
 export default class Home extends Component {
     render() {
       return (
-        <div className="homePage">
+        <div id="home" className="homePage">
           <div className="jumbotronImg">
             <div className="homeText">
               <p>

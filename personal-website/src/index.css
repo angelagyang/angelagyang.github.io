@@ -1,6 +1,10 @@
 /** FONTS **/ 
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400&family=Libre+Franklin:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Work+Sans:wght@300&display=swap');
+
+html{
+  scroll-behavior: smooth;;
+}
 
 body {
   margin: 0;
@@ -34,6 +38,12 @@ p {
   margin-left: 35%;
 }
 
+
+.basic-navbar-nav {
+  width: 100%;
+  text-align: center;
+}
+
 /** HOME PAGE **/ 
 .homePage {
   height: 100%;
@@ -52,7 +62,7 @@ p {
 
 .homeText {
   color: #302425;
-  font-family: 'Libre Franklin', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 80px;
   font-weight: bold;
   text-shadow: 0px 0px 25px #ffffff;
@@ -85,4 +95,24 @@ p {
   background-color: rgba(255, 255, 255, 0.25) !important; /* Green */
   border: 3px solid #302425  !important;
   border-color:rgba(48, 36, 37, 0.7) !important;
+}
+
+
+/** ABOUT **/ 
+.aboutBody {
+  height: 900px;
+
+}
+
+/** EXPERIENCE **/
+
+.experienceBody {
+  height: 900px;
+
+}
+
+/** CONTACT **/ 
+
+.contactBody {
+  height: 900px;
 }
