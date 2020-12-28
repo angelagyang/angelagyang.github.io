@@ -4,7 +4,7 @@ import { Navbar,Nav } from 'react-bootstrap'
 export default class NavBar extends Component {
     render() {
       return (
-        <Navbar classame="pr-0 pl-0" bg="light" expand="lg" sticky="top" >
+        <Navbar id="sticky-bar" classame="pr-0 pl-0" bg="light" expand="lg" sticky="top" >
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Brand href="#home">
             <img
