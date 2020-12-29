@@ -12,7 +12,7 @@ export default class Home extends Component {
               Hi, I'm Angela!             
             </p>
             <p id="secondText">
-              software developer
+              Software eveloper
             </p>
             <p>
               <Button href="AngelaYangCV.pdf" target="_blank" className="downloadCvButton" variant="primary" size="lg">Download CV</Button>
