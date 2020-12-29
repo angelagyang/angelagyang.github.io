@@ -25,11 +25,12 @@ code {
     monospace;
 }
 
-/** SPACING **/ 
+/** SPACING
 p {
-  line-height: 4vw;   /* within paragraph */
-  margin-bottom: 3vh; /* between paragraphs */
+  line-height: 4vw;  
 }
+
+**/
 
 /** NAVBAR **/ 
 .sticky-bar {
@@ -51,10 +52,14 @@ p {
 /** COMMON STYLING **/ 
 .sectionHeader {
   color: #302425;
-  font-family: 'Ubuntu' sans-serif;
+  width: 100%;
+ 
+  font-family: 'Lato', sans-serif;
   font-size: 80px;
-  font-size: 5vw;
+  font-size: 4vw;
+  font-weight:bold;
   justify-content: center;
+  text-align: center;
 }
 
 /** HOME PAGE **/ 
@@ -63,7 +68,6 @@ p {
   display: flex; 
   width: 100% !important; 
   height: 100% !important;
-  position: relative; 
 }
 
 .jumbotronImage {
@@ -71,7 +75,6 @@ p {
   height: auto;
   top: 70; 
   left: 0; 
-  position: relative;
 }
 
 .jumbotronText {
@@ -84,6 +87,7 @@ p {
   font-size: 4vw;
   font-weight: bold;
   text-shadow: 0px 0px 25px #ffffff;
+  line-height: 3vw; 
 
   /** position config **/ 
   height: 100%; 
@@ -98,6 +102,7 @@ p {
   height: 100% !important;
   padding-top: 15%; 
   padding-right: 6%;
+  padding-bottom: 0%;
 }
 
 #secondText {
@@ -125,18 +130,33 @@ p {
 
 /** ABOUT **/ 
 .aboutContainer {
-  display: flex; 
+  display: block; 
   width: 100% !important; 
   height: 100% !important;
-  position: relative;
   padding-top: 5%; 
-
   background-color: #FAE2E7;
 }
 
 .aboutBody {
-  height: 900px;
+  padding-top: 3%; 
+  padding-right: 10%; 
+  padding-left: 10%; 
+  width: 100%;
+  height: 600px;
+  background-color: #FAE2E7;
+  justify-content: center;
+  text-align: center;
 
+  /** font config **/ 
+  font-weight: bold;
+  font-family: 'Work Sans', sans-serif !important;
+  font-size: 1.5vw !important;
+  font-size: 28px; 
+  line-height: 2;
+}
+
+.aboutImage {
+  width: 150px; 
 }
 
 /** EXPERIENCE **/
@@ -145,7 +165,6 @@ p {
   display: flex; 
   width: 100% !important; 
   height: 100% !important;
-  position: relative; 
   background-color: #FAE2E7;
   padding-top: 5%; 
 
@@ -153,7 +172,7 @@ p {
 
 .experienceBody {
   height: 900px;
-
+  width: 100%;
 }
 
 /** CONTACT **/ 
@@ -162,7 +181,6 @@ p {
   display: flex; 
   width: 100% !important; 
   height: 100% !important;
-  position: relative; 
   background-color: #FAE2E7;
   padding-top: 5%; 
 
@@ -170,4 +188,5 @@ p {
 
 .contactBody {
   height: 900px;
+  width: 100%;
 }
