@@ -91,7 +91,6 @@ p {
   line-height: 3vw; 
 
   /** position config **/ 
-  height: 100%; 
   z-index: 5;
   position: absolute;
   top: 70; 
@@ -102,6 +101,7 @@ p {
   height: 100% !important;
   padding-top: 15%; 
   padding-right: 6%;
+  padding-bottom: 0%;
 }
 
 #secondText {
@@ -133,7 +133,7 @@ p {
   width: 100% !important; 
   height: 100% !important;
   padding-top: 5%; 
-  background-color: #FAE2E7;
+  background-color: #fff5f7;
 }
 
 .aboutBody {
@@ -141,8 +141,8 @@ p {
   padding-right: 10%; 
   padding-left: 10%; 
   width: 100%;
-  height: 600px;
-  background-color: #FAE2E7;
+  height: 700px;
+  background-color: #fff5f7;
   justify-content: center;
   text-align: center;
 
@@ -155,7 +155,8 @@ p {
 }
 
 .aboutImage {
-  width: 150px; 
+  width: 15vw !important; 
+  width: 100px; 
 }
 
 /** EXPERIENCE **/
@@ -180,12 +181,46 @@ p {
   display: flex; 
   width: 100% !important; 
   height: 100% !important;
-  background-color: #FAE2E7;
+  background-color: #fff5f7;
   padding-top: 5%; 
 
 }
 
 .contactBody {
-  height: 900px;
+  height: 350px;
   width: 100%;
+}
+
+ul#contactList {
+  padding-left: 0; 
+  width: 100%;
+  white-space: nowrap;
+  list-style: none; 
+  display: inline-block;
+
+}
+
+ul#contactList li {
+  display:inline;
+}
+
+#contactList li {
+  display: inline;
+}
+
+.linkedInImg {
+  width: 45px; 
+  margin-right: 18px
+}
+
+.githubImg {
+  width: 55px; 
+}
+
+.emailImg {
+  width: 90px; 
+}
+
+.wordpressImg {
+  width: 55px; 
 }

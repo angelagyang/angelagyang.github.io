@@ -15,7 +15,7 @@ export default class About extends Component {
                     In my free time, I enjoy creating digital art, playing video games, and listening to podcasts. Check out my 
                     blog where I share my thoughts on a variety of topics!  
                 </p>
-                <a href="https://ai.cs.cmu.edu/" target="_blank">
+                <a href="https://ai.cs.cmu.edu/" target="_blank" rel="noreferrer">
                     <img className="aboutImage" src ='images/cmu.png' alt="Carnegie Mellon University">
                     </img>
                 </a>
